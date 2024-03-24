@@ -9,7 +9,7 @@ The SSL certificate is used to encrypt communication between web servers and the
 - What monitoring is used for?
 Web servers perform a variety of crucial tasks. As a result, there are several things to monitor, such as connections to clients and other servers on the network, traffic flowing to and from the server at any given moment, demands for host resources like CPU, RAM, and disk access, and the accessibility of other web servers for proxying requests.
 
-- How the monitoring tool is collecting data? Explain what to do if you want to monitor your web server QPS
+- How the monitoring tool is collecting data? Explain what to do if you want to monitor your web server QPS?
 The monitoring tool observes the servers and provides key metrics about the servers' operations to the administrators. It automatically tests the accessibility of the servers, measures response time, and alerts for errors such as corrupt/missing files, security vulnerabilities/violations, and many other issues.
 In regard to a network that serves a Web domain, the number of queries per second indicates the volume of traffic passing through a certain server. This measurement is crucial for determining if systems are scalable enough to meet the evolving demands of a user community as it expands and how support infrastructures handle fluctuating volumes of Web traffic.
 

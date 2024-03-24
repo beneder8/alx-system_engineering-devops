@@ -23,12 +23,12 @@ The TCP/IP protocol suite is used to facilitate communication between the client
 
 # Issues with the infrastructure
 
-- SPOF
+- SPOF:
 This infrastructure contains several SPOFs (Single Points of Failure). For example, failure of the application server leads to inaccessibility of the site.
 
-- Downtime when maintenance needed (like deploying new code web server needs to be restarted)
+- Downtime when maintenance needed (like deploying new code web server needs to be restarted):
 The server must be shut down or any component shut down when we need to do maintenance checks on it. There is just one server, thus there would be a downtime on the website.
 
-- Cannot scale if too much incoming traffic
+- Cannot scale if too much incoming traffic:
 Because all the necessary components are on a single server, scaling this system would be challenging. When the server starts getting a lot of requests, it may rapidly run out of resources or begin to slow down.
 
